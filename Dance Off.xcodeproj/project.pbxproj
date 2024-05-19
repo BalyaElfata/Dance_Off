@@ -27,6 +27,11 @@
 		213ED4782BFA604E003A7255 /* ExerciseClassifier+PredictAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213ED4712BFA604E003A7255 /* ExerciseClassifier+PredictAction.swift */; };
 		213ED4792BFA604E003A7255 /* ExerciseClassifier+Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213ED4722BFA604E003A7255 /* ExerciseClassifier+Singleton.swift */; };
 		213ED47B2BFA6179003A7255 /* DanceModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 213ED47A2BFA6179003A7255 /* DanceModel.mlmodel */; };
+		213ED4862BFA6E95003A7255 /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 213ED4842BFA6B03003A7255 /* video2.mp4 */; };
+		213ED4872BFA6E99003A7255 /* video3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 213ED4832BFA6B03003A7255 /* video3.mp4 */; };
+		213ED4882BFA6E9C003A7255 /* video4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 213ED4822BFA6B03003A7255 /* video4.mp4 */; };
+		213ED4892BFA6E9F003A7255 /* video5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 213ED4852BFA6B03003A7255 /* video5.mp4 */; };
+		213ED48A2BFA702C003A7255 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 213ED47C2BFA61D4003A7255 /* video.mp4 */; };
 		21EA5A282BF399C3001900D5 /* Dance_OffApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EA5A272BF399C3001900D5 /* Dance_OffApp.swift */; };
 		21EA5A2A2BF399C3001900D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EA5A292BF399C3001900D5 /* ContentView.swift */; };
 		21EA5A2C2BF399CD001900D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21EA5A2B2BF399CD001900D5 /* Assets.xcassets */; };
@@ -64,6 +69,10 @@
 		213ED4722BFA604E003A7255 /* ExerciseClassifier+Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExerciseClassifier+Singleton.swift"; sourceTree = "<group>"; };
 		213ED47A2BFA6179003A7255 /* DanceModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = DanceModel.mlmodel; path = ../../../../../ADA/ML/Dance/DanceModel.mlmodel; sourceTree = "<group>"; };
 		213ED47C2BFA61D4003A7255 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		213ED4822BFA6B03003A7255 /* video4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video4.mp4; path = ../../../../../../Downloads/video4.mp4; sourceTree = "<group>"; };
+		213ED4832BFA6B03003A7255 /* video3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video3.mp4; path = ../../../../../../Downloads/video3.mp4; sourceTree = "<group>"; };
+		213ED4842BFA6B03003A7255 /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video2.mp4; path = ../../../../../../Downloads/video2.mp4; sourceTree = "<group>"; };
+		213ED4852BFA6B03003A7255 /* video5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video5.mp4; path = ../../../../../../Downloads/video5.mp4; sourceTree = "<group>"; };
 		21EA5A242BF399C3001900D5 /* Dance Off.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dance Off.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21EA5A272BF399C3001900D5 /* Dance_OffApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dance_OffApp.swift; sourceTree = "<group>"; };
 		21EA5A292BF399C3001900D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -226,6 +235,10 @@
 			isa = PBXGroup;
 			children = (
 				213ED47C2BFA61D4003A7255 /* video.mp4 */,
+				213ED4842BFA6B03003A7255 /* video2.mp4 */,
+				213ED4832BFA6B03003A7255 /* video3.mp4 */,
+				213ED4822BFA6B03003A7255 /* video4.mp4 */,
+				213ED4852BFA6B03003A7255 /* video5.mp4 */,
 				2111FDA62BFA3FC800B5E41B /* PlayVideo.swift */,
 				21EA5A472BF46FA2001900D5 /* PlaySound.swift */,
 				2111FDA22BF9D7A600B5E41B /* Color.swift */,
@@ -293,6 +306,11 @@
 			files = (
 				21EA5A302BF399CD001900D5 /* Preview Assets.xcassets in Resources */,
 				21EA5A2C2BF399CD001900D5 /* Assets.xcassets in Resources */,
+				213ED4862BFA6E95003A7255 /* video2.mp4 in Resources */,
+				213ED4882BFA6E9C003A7255 /* video4.mp4 in Resources */,
+				213ED48A2BFA702C003A7255 /* video.mp4 in Resources */,
+				213ED4872BFA6E99003A7255 /* video3.mp4 in Resources */,
+				213ED4892BFA6E9F003A7255 /* video5.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
