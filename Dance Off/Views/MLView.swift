@@ -16,6 +16,8 @@ struct MLView: View {
     @State private var avPlayer: AVPlayer?
     @State private var currentVideoIndex = 0
     
+    @State var total: Double = 0
+    
     let videos = ["video2", "video3", "video4", "video5"]
     
     var switchCamera: some View {
@@ -41,33 +43,50 @@ struct MLView: View {
     }
     
     var body: some View {
-        Text("\(predictionVM.predicted)")
-            .font(Font.custom("Samurai Blast", size: 40))
-            .foregroundStyle(.purple)
-        Text("Score: \(predictionVM.confidence)")
-            .font(Font.custom("Samurai Blast", size: 40))
-            .foregroundStyle(.blue)
-        HStack {
-            // Video Player
-            if let player = avPlayer {
-                VideoPlayer(player: player)
-                    .frame(width: 500)
-                    .onAppear {
-                        player.play()
-                        player.isMuted = true
-                    }
-            } else {
-                Text("Loading video...")
-            }
-            ZStack {
-                Image(uiImage: predictionVM.currentFrame ?? UIImage())
-                    .resizable()
-                    .scaledToFill()
+        ZStack {
+//            Image()
+            VStack {
+                Text("\(predictionVM.predicted)")
+                    .font(Font.custom("Samurai Blast", size: 40))
+                    .foregroundStyle(.purple)
                 
-                predictionLabels
+                
+                Text("Confidence: \(predictionVM.confidence)")
+                    .font(Font.custom("Samurai Blast", size: 40))
+                    .foregroundStyle(.blue)
+                
+                Text("Score: \(total)")
+                    .font(Font.custom("Samurai Blast", size: 40))
+                    .foregroundStyle(.blue)
+                    .onChange(of: predictionVM.score) {
+                        total += predictionVM.score ?? 0
+                    }
+                
+                HStack {
+                    // Video Player
+                    if let player = avPlayer {
+                        VideoPlayer(player: player)
+                            .frame(width: 405, height: 720)
+                            .border(Color.orange, width: 5)
+                            .onAppear {
+                                player.play()
+                                player.isMuted = true
+                            }
+                    } else {
+                        Text("Loading video...")
+                    }
+                    
+                    // Camera View
+                    Image(uiImage: predictionVM.currentFrame ?? UIImage())
+                        .resizable()
+                        .frame(width: 405, height: 720)
+                    //                    .scaledToFill()
+                        .border(Color.blue, width: 5)
+                }
+                .padding(20)
             }
         }
-        .padding()
+        
         .onAppear {
             playNextVideo()
             predictionVM.updateUILabels(with: .startingPrediction)
@@ -109,6 +128,14 @@ struct MLView: View {
         currentVideoIndex = (currentVideoIndex + 1) % videos.count
         playNextVideo()
     }
+    
+    private func danceScore(_ score: Double?) -> [Double]? {
+        var totalScore: [Double]
+        totalScore = []
+        totalScore.append(score ?? 0)
+        return totalScore
+    }
+
 }
 
 struct MLView_Previews: PreviewProvider {
