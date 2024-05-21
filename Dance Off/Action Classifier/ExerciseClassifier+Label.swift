@@ -17,7 +17,6 @@ extension DanceModel {
         case gangnam = "gangnam"
         case spongebob = "spongebob"
         case orange = "orange"
-        case prabowo = "prabowo"
         case floss = "floss"
         case others = "others"
 
