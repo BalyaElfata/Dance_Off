@@ -26,7 +26,7 @@ struct ActionPrediction {
 
         // Convert the confidence to a percentage based string.
         let percent = confidence * 100
-        let formatString = percent >= 99.5 ? "%2.0f %%" : "%2.1f %%"
+        let formatString = percent >= 99.5 ? "%2.0f" : "%2.1f"
         return String(format: formatString, percent)
     }
 
@@ -40,9 +40,9 @@ extension ActionPrediction {
     /// Defines placeholder prediction labels beyond the scope of the
     /// action classifier model.
     private enum AppLabel: String {
-        case starting = "Starting Up"
-        case noPerson = "No Person"
-        case lowConfidence = "Low Confidence"
+        case starting = "Starting.."
+        case noPerson = "No Person Detected"
+        case lowConfidence = "Keep Dancing"
     }
 
     /// A prediction that represents a time window that doesn't contain
