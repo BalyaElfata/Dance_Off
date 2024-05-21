@@ -5,18 +5,6 @@ import AVFoundation
 
 var audioPlayer: AVAudioPlayer?
 
-func playSound(sound: String, type: String) {
-    if let path = Bundle.main.path(forResource: sound, ofType: type) {
-        do {
-            _ = try? AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.ambient, mode: .default, options: .mixWithOthers)
-            audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: path))
-            audioPlayer?.play()
-        } catch {
-            print("ERROR: Could not find and play the sound file.")
-        }
-    }
-}
-
 class Sounds {
     static var audioPlayer: AVAudioPlayer!
     static var musicPlayer: AVAudioPlayer!
@@ -25,7 +13,7 @@ class Sounds {
         if let path = Bundle.main.path(forResource: sound, ofType: type) {
            do {
                //Doesn't stop background music
-               _ = try? AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.playback, mode: .default, options: .mixWithOthers)
+               _ = try? AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.ambient, mode: .default, options: .mixWithOthers)
                //Load & play sound
                audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: path))
                audioPlayer?.play()
