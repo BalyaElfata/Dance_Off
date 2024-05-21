@@ -14,9 +14,11 @@ extension DanceModel {
 //
 //        /// A negative class that represents irrelevant actions.
 //        case otherAction = "Other Action"
-        case chest = "chest"
-        case gun = "gun"
-        case woah = "woah"
+        case gangnam = "gangnam"
+        case spongebob = "spongebob"
+        case orange = "orange"
+        case prabowo = "prabowo"
+        case floss = "floss"
         case others = "others"
 
         /// Creates a label from a string.
