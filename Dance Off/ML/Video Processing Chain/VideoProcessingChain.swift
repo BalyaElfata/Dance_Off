@@ -73,8 +73,9 @@ struct VideoProcessingChain {
     /// prediction.
     ///
     /// Increase the stride's value to make predictions less frequently.
+    /// 10 stride = 1 second
     /// - Tag: windowStride
-    private let windowStride = 10
+    private let windowStride = 20
 
     init() {
         predictionWindowSize = actionClassifier.calculatePredictionWindowSize()
