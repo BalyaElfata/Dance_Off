@@ -33,8 +33,9 @@
 		213ED4892BFA6E9F003A7255 /* video5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 213ED4852BFA6B03003A7255 /* video5.mp4 */; };
 		213ED48A2BFA702C003A7255 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 213ED47C2BFA61D4003A7255 /* video.mp4 */; };
 		213ED48E2BFB59B8003A7255 /* SamuraiBlast.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 213ED48D2BFB58D5003A7255 /* SamuraiBlast.ttf */; };
-		213ED4922BFC4C72003A7255 /* DanceModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 213ED4902BFC4C71003A7255 /* DanceModel.mlmodel */; };
+		213ED4922BFC4C72003A7255 /* dance2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 213ED4902BFC4C71003A7255 /* dance2.mlmodel */; };
 		213ED4932BFC4C72003A7255 /* dance3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 213ED4912BFC4C72003A7255 /* dance3.mlmodel */; };
+		213ED4952BFC54CB003A7255 /* DanceModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 213ED4942BFC54CB003A7255 /* DanceModel.mlmodel */; };
 		21EA5A282BF399C3001900D5 /* Dance_OffApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EA5A272BF399C3001900D5 /* Dance_OffApp.swift */; };
 		21EA5A2A2BF399C3001900D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EA5A292BF399C3001900D5 /* ContentView.swift */; };
 		21EA5A2C2BF399CD001900D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21EA5A2B2BF399CD001900D5 /* Assets.xcassets */; };
@@ -78,8 +79,9 @@
 		213ED4852BFA6B03003A7255 /* video5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video5.mp4; path = ../../../../../../Downloads/video5.mp4; sourceTree = "<group>"; };
 		213ED48D2BFB58D5003A7255 /* SamuraiBlast.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SamuraiBlast.ttf; sourceTree = "<group>"; };
 		213ED48F2BFB5A7D003A7255 /* Dance-Off-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Dance-Off-Info.plist"; sourceTree = SOURCE_ROOT; };
-		213ED4902BFC4C71003A7255 /* DanceModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = DanceModel.mlmodel; path = ../../../../../ADA/ML/Dance/DanceModel.mlmodel; sourceTree = "<group>"; };
+		213ED4902BFC4C71003A7255 /* dance2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = dance2.mlmodel; path = ../../../../../ADA/ML/Dance/dance2.mlmodel; sourceTree = "<group>"; };
 		213ED4912BFC4C72003A7255 /* dance3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = dance3.mlmodel; path = ../../../../../ADA/ML/Dance/dance3.mlmodel; sourceTree = "<group>"; };
+		213ED4942BFC54CB003A7255 /* DanceModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = DanceModel.mlmodel; path = ../../../../../ADA/ML/Dance/DanceModel.mlmodel; sourceTree = "<group>"; };
 		21EA5A242BF399C3001900D5 /* Dance Off.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dance Off.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21EA5A272BF399C3001900D5 /* Dance_OffApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dance_OffApp.swift; sourceTree = "<group>"; };
 		21EA5A292BF399C3001900D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -151,8 +153,9 @@
 			isa = PBXGroup;
 			children = (
 				213ED47A2BFA6179003A7255 /* dance1.mlmodel */,
-				213ED4902BFC4C71003A7255 /* DanceModel.mlmodel */,
+				213ED4902BFC4C71003A7255 /* dance2.mlmodel */,
 				213ED4912BFC4C72003A7255 /* dance3.mlmodel */,
+				213ED4942BFC54CB003A7255 /* DanceModel.mlmodel */,
 				213ED4732BFA604E003A7255 /* Action Classifier */,
 				213ED4572BFA5E5A003A7255 /* Pose */,
 				213ED45C2BFA5E5A003A7255 /* Video Capture */,
@@ -352,7 +355,7 @@
 				21EA5A282BF399C3001900D5 /* Dance_OffApp.swift in Sources */,
 				213ED4792BFA604E003A7255 /* ExerciseClassifier+Singleton.swift in Sources */,
 				213ED4612BFA5E5A003A7255 /* MLView.swift in Sources */,
-				213ED4922BFC4C72003A7255 /* DanceModel.mlmodel in Sources */,
+				213ED4922BFC4C72003A7255 /* dance2.mlmodel in Sources */,
 				213ED4682BFA5E5A003A7255 /* AVCaptureVideoDataOutput+PixelFormat.swift in Sources */,
 				213ED4622BFA5E5A003A7255 /* Pose.swift in Sources */,
 				21EA5A512BF4F083001900D5 /* CameraView2.swift in Sources */,
@@ -364,6 +367,7 @@
 				213ED4672BFA5E5A003A7255 /* AVCaptureDeviceInput+Camera.swift in Sources */,
 				213ED4642BFA5E5A003A7255 /* Pose+Empty.swift in Sources */,
 				213ED4752BFA604E003A7255 /* ExerciseClassifier+FrameRate.swift in Sources */,
+				213ED4952BFC54CB003A7255 /* DanceModel.mlmodel in Sources */,
 				21EA5A3A2BF3B298001900D5 /* MLViewMac.swift in Sources */,
 				213ED4662BFA5E5A003A7255 /* AVCaptureDevice+FrameRate.swift in Sources */,
 			);
