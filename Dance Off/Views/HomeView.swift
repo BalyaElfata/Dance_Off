@@ -10,20 +10,24 @@ struct HomeView: View {
         NavigationStack {
             // background
             ZStack {
-                Color(hex: 0xF1F17C, opacity: 1)
+                Image("background")
+                    .resizable()
+                    .scaledToFill()
                     .ignoresSafeArea()
-                Circle()
-                    .frame(minHeight: 1350)
-                    .foregroundColor(Color(hex: 0xECEC46, opacity: 1))
-                Circle()
-                    .frame(height: 1100)
-                    .foregroundColor(Color(hex: 0xDEDE17, opacity: 1))
-                Circle()
-                    .frame(height: 850)
-                    .foregroundColor(Color(hex: 0xCBCB15, opacity: 1))
+                Color(hex: 0xF1F17C, opacity: 0.8)
+                    .ignoresSafeArea()
+//                Circle()
+//                    .frame(height: 1350)
+//                    .foregroundColor(Color(hex: 0xECEC46, opacity: 1))
+//                Circle()
+//                    .frame(height: 1100)
+//                    .foregroundColor(Color(hex: 0xDEDE17, opacity: 1))
+//                Circle()
+//                    .frame(height: 850)
+//                    .foregroundColor(Color(hex: 0xCBCB15, opacity: 1))
                 VStack (alignment: .center){
                     //Camera Button
-                    NavigationLink (destination: MLView()) {
+                    NavigationLink (destination: SelectionView()) {
                         Image("logo")
                             .resizable()
                             .frame(width: 600, height: 600)
