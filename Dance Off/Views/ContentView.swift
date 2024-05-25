@@ -21,24 +21,8 @@ struct ContentView: View {
     
     let videos = ["video2", "video3", "video4", "video5"]
     
-    var switchCamera: some View {
-        HStack {
-            Button {
-                predictionVM.videoCapture.toggleCameraSelection()
-            } label: {
-                Image(systemName: "arrow.triangle.2.circlepath.camera.fill")
-                    .imageScale(.large)
-                    .foregroundColor(.accentColor)
-            }
-            .padding(.leading)
-            
-            Spacer()
-        }
-    }
-    
     var predictionLabels: some View {
         VStack {
-            switchCamera
             Spacer()
         }
     }
