@@ -87,10 +87,10 @@ class VideoCapture: NSObject {
     /// A Boolean that indicates whether the video capture minimize camera shake.
     private var videoStabilizationEnabled = false
 
-    /// Changes the camera selection between the front- and back-facing cameras.
-    func toggleCameraSelection() {
-        cameraPosition = cameraPosition == .back ? .front : .back
-    }
+//    /// Changes the camera selection between the front- and back-facing cameras.
+//    func toggleCameraSelection() {
+//        cameraPosition = cameraPosition == .back ? .front : .back
+//    }
 
     /// Adjusts the video orientation to match the device's orientation.
     func updateDeviceOrientation() {
