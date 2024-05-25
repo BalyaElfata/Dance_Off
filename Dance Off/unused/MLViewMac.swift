@@ -3,7 +3,7 @@
 //import CoreML
 //import Vision
 //
-//struct MLViewMac: View {
+//struct GameViewMac: View {
 //    @State private var session = AVCaptureSession()
 //    @State private var detectionResults = [VNRecognizedObjectObservation]()
 //
@@ -123,5 +123,5 @@
 //}
 //
 //#Preview {
-//    MLViewMac()
+//    GameViewMac()
 //}
