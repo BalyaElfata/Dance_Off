@@ -4,7 +4,7 @@ import AVKit
 struct PlayVideo: View {
     @State private var showSidebar = true
     
-    let videos = ["video","video2","video3","video4","video5"]
+    let videos = ["gangnam_style", "spongebob", "caramelldansen", "watch_me", "harlem_shake", "permission_to_dance"]
     
     var body: some View {
         let avPlayer = AVPlayer(url:  Bundle.main.url(forResource: videos[Int.random(in: videos.indices)], withExtension: "mp4")!)
@@ -30,10 +30,10 @@ struct PlayVideo: View {
                 }
             } detail: {
                 VideoPlayer(player: avPlayer)
-                    .frame(height: 500)
+                    .frame(width: 360, height: 640)
                     .onAppear {
-                        avPlayer.play()
                         avPlayer.isMuted = true
+                        avPlayer.play()
                     }
                     .onDisappear {
                         // play your turn
