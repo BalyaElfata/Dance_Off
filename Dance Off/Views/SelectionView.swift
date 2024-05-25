@@ -25,7 +25,7 @@ struct SelectionView: View {
                     LazyVStack(spacing: 25) {
                         ForEach(songs.indices, id: \.self) { index in
                             let song = songs[index]
-                            NavigationLink (destination: MLView(song: song.fileName)) {
+                            NavigationLink (destination: GameView(song: song.fileName)) {
                                 SongView(song: song)
                             }
                         }
