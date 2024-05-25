@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2111FDA32BF9D7A600B5E41B /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2111FDA22BF9D7A600B5E41B /* Color.swift */; };
 		2111FDA72BFA3FC800B5E41B /* PlayVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2111FDA62BFA3FC800B5E41B /* PlayVideo.swift */; };
-		213ED4612BFA5E5A003A7255 /* MLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213ED4512BFA5E5A003A7255 /* MLView.swift */; };
+		213ED4612BFA5E5A003A7255 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213ED4512BFA5E5A003A7255 /* GameView.swift */; };
 		213ED4622BFA5E5A003A7255 /* Pose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213ED4532BFA5E5A003A7255 /* Pose.swift */; };
 		213ED4632BFA5E5A003A7255 /* Pose+Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213ED4542BFA5E5A003A7255 /* Pose+Connection.swift */; };
 		213ED4642BFA5E5A003A7255 /* Pose+Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213ED4552BFA5E5A003A7255 /* Pose+Empty.swift */; };
@@ -27,15 +27,19 @@
 		213ED4782BFA604E003A7255 /* ExerciseClassifier+PredictAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213ED4712BFA604E003A7255 /* ExerciseClassifier+PredictAction.swift */; };
 		213ED4792BFA604E003A7255 /* ExerciseClassifier+Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213ED4722BFA604E003A7255 /* ExerciseClassifier+Singleton.swift */; };
 		213ED47B2BFA6179003A7255 /* dance1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 213ED47A2BFA6179003A7255 /* dance1.mlmodel */; };
-		213ED4862BFA6E95003A7255 /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 213ED4842BFA6B03003A7255 /* video2.mp4 */; };
-		213ED4872BFA6E99003A7255 /* video3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 213ED4832BFA6B03003A7255 /* video3.mp4 */; };
-		213ED4882BFA6E9C003A7255 /* video4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 213ED4822BFA6B03003A7255 /* video4.mp4 */; };
-		213ED4892BFA6E9F003A7255 /* video5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 213ED4852BFA6B03003A7255 /* video5.mp4 */; };
-		213ED48A2BFA702C003A7255 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 213ED47C2BFA61D4003A7255 /* video.mp4 */; };
 		213ED48E2BFB59B8003A7255 /* SamuraiBlast.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 213ED48D2BFB58D5003A7255 /* SamuraiBlast.ttf */; };
 		213ED4922BFC4C72003A7255 /* dance2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 213ED4902BFC4C71003A7255 /* dance2.mlmodel */; };
 		213ED4932BFC4C72003A7255 /* dance3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 213ED4912BFC4C72003A7255 /* dance3.mlmodel */; };
 		213ED4952BFC54CB003A7255 /* DanceModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 213ED4942BFC54CB003A7255 /* DanceModel.mlmodel */; };
+		218A82782C01CCB500503D60 /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A82772C01CCB500503D60 /* SelectionView.swift */; };
+		218A827B2C01CEAD00503D60 /* SongList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A827A2C01CEAD00503D60 /* SongList.swift */; };
+		218A82832C01D00400503D60 /* permission_to_dance.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 218A827D2C01D00400503D60 /* permission_to_dance.mp4 */; };
+		218A82842C01D00400503D60 /* gangnam_style.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 218A827E2C01D00400503D60 /* gangnam_style.mp4 */; };
+		218A82862C01D00400503D60 /* spongebob.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 218A82802C01D00400503D60 /* spongebob.mp4 */; };
+		218A82892C01D6A800503D60 /* watch_me.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 218A82882C01D6A800503D60 /* watch_me.mp4 */; };
+		218A828B2C01D8A800503D60 /* caramelldansen.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 218A828A2C01D8A800503D60 /* caramelldansen.mp4 */; };
+		218A828D2C01D9B500503D60 /* harlem_shake.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 218A828C2C01D9B500503D60 /* harlem_shake.mp4 */; };
+		218A828F2C01E3FB00503D60 /* SongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A828E2C01E3FB00503D60 /* SongView.swift */; };
 		21EA5A282BF399C3001900D5 /* Dance_OffApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EA5A272BF399C3001900D5 /* Dance_OffApp.swift */; };
 		21EA5A2A2BF399C3001900D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EA5A292BF399C3001900D5 /* ContentView.swift */; };
 		21EA5A2C2BF399CD001900D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21EA5A2B2BF399CD001900D5 /* Assets.xcassets */; };
@@ -49,12 +53,13 @@
 		21EA5A4A2BF494CA001900D5 /* CameraView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EA5A492BF494CA001900D5 /* CameraView1.swift */; };
 		21EA5A4C2BF49ADA001900D5 /* MLView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EA5A4B2BF49ADA001900D5 /* MLView1.swift */; };
 		21EA5A512BF4F083001900D5 /* CameraView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EA5A502BF4F083001900D5 /* CameraView2.swift */; };
+		21FDA93A2BFDD6C5004C9DDD /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FDA9392BFDD6C5004C9DDD /* ScoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2111FDA22BF9D7A600B5E41B /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		2111FDA62BFA3FC800B5E41B /* PlayVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVideo.swift; sourceTree = "<group>"; };
-		213ED4512BFA5E5A003A7255 /* MLView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLView.swift; sourceTree = "<group>"; };
+		213ED4512BFA5E5A003A7255 /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		213ED4532BFA5E5A003A7255 /* Pose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pose.swift; sourceTree = "<group>"; };
 		213ED4542BFA5E5A003A7255 /* Pose+Connection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Pose+Connection.swift"; sourceTree = "<group>"; };
 		213ED4552BFA5E5A003A7255 /* Pose+Empty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Pose+Empty.swift"; sourceTree = "<group>"; };
@@ -72,16 +77,20 @@
 		213ED4712BFA604E003A7255 /* ExerciseClassifier+PredictAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExerciseClassifier+PredictAction.swift"; sourceTree = "<group>"; };
 		213ED4722BFA604E003A7255 /* ExerciseClassifier+Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExerciseClassifier+Singleton.swift"; sourceTree = "<group>"; };
 		213ED47A2BFA6179003A7255 /* dance1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = dance1.mlmodel; path = ../../../../../ADA/ML/Dance/dance1.mlmodel; sourceTree = "<group>"; };
-		213ED47C2BFA61D4003A7255 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
-		213ED4822BFA6B03003A7255 /* video4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video4.mp4; path = ../../../../../../Downloads/video4.mp4; sourceTree = "<group>"; };
-		213ED4832BFA6B03003A7255 /* video3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video3.mp4; path = ../../../../../../Downloads/video3.mp4; sourceTree = "<group>"; };
-		213ED4842BFA6B03003A7255 /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video2.mp4; path = ../../../../../../Downloads/video2.mp4; sourceTree = "<group>"; };
-		213ED4852BFA6B03003A7255 /* video5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video5.mp4; path = ../../../../../../Downloads/video5.mp4; sourceTree = "<group>"; };
 		213ED48D2BFB58D5003A7255 /* SamuraiBlast.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SamuraiBlast.ttf; sourceTree = "<group>"; };
 		213ED48F2BFB5A7D003A7255 /* Dance-Off-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Dance-Off-Info.plist"; sourceTree = SOURCE_ROOT; };
 		213ED4902BFC4C71003A7255 /* dance2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = dance2.mlmodel; path = ../../../../../ADA/ML/Dance/dance2.mlmodel; sourceTree = "<group>"; };
 		213ED4912BFC4C72003A7255 /* dance3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = dance3.mlmodel; path = ../../../../../ADA/ML/Dance/dance3.mlmodel; sourceTree = "<group>"; };
 		213ED4942BFC54CB003A7255 /* DanceModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = DanceModel.mlmodel; path = ../../../../../ADA/ML/Dance/DanceModel.mlmodel; sourceTree = "<group>"; };
+		218A82772C01CCB500503D60 /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		218A827A2C01CEAD00503D60 /* SongList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongList.swift; sourceTree = "<group>"; };
+		218A827D2C01D00400503D60 /* permission_to_dance.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = permission_to_dance.mp4; path = ../../../../../../Downloads/permission_to_dance.mp4; sourceTree = "<group>"; };
+		218A827E2C01D00400503D60 /* gangnam_style.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = gangnam_style.mp4; path = ../../../../../../Downloads/gangnam_style.mp4; sourceTree = "<group>"; };
+		218A82802C01D00400503D60 /* spongebob.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = spongebob.mp4; path = ../../../../../../Downloads/spongebob.mp4; sourceTree = "<group>"; };
+		218A82882C01D6A800503D60 /* watch_me.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = watch_me.mp4; path = ../../../../../../Downloads/watch_me.mp4; sourceTree = "<group>"; };
+		218A828A2C01D8A800503D60 /* caramelldansen.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = caramelldansen.mp4; path = ../../../../../../Downloads/caramelldansen.mp4; sourceTree = "<group>"; };
+		218A828C2C01D9B500503D60 /* harlem_shake.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = harlem_shake.mp4; path = ../../../../../../Downloads/harlem_shake.mp4; sourceTree = "<group>"; };
+		218A828E2C01E3FB00503D60 /* SongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongView.swift; sourceTree = "<group>"; };
 		21EA5A242BF399C3001900D5 /* Dance Off.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dance Off.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21EA5A272BF399C3001900D5 /* Dance_OffApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dance_OffApp.swift; sourceTree = "<group>"; };
 		21EA5A292BF399C3001900D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +107,7 @@
 		21EA5A4B2BF49ADA001900D5 /* MLView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLView1.swift; sourceTree = "<group>"; };
 		21EA5A502BF4F083001900D5 /* CameraView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView2.swift; sourceTree = "<group>"; };
 		21EA5A522BF5E6D3001900D5 /* DanceModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DanceModel.mlmodel; sourceTree = "<group>"; };
+		21FDA9392BFDD6C5004C9DDD /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +203,14 @@
 			path = unused;
 			sourceTree = "<group>";
 		};
+		218A82792C01CE9100503D60 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				218A827A2C01CEAD00503D60 /* SongList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		21EA5A1B2BF399C3001900D5 = {
 			isa = PBXGroup;
 			children = (
@@ -215,6 +233,7 @@
 				213ED48F2BFB5A7D003A7255 /* Dance-Off-Info.plist */,
 				21EA5A272BF399C3001900D5 /* Dance_OffApp.swift */,
 				21EA5A432BF46EFF001900D5 /* Views */,
+				218A82792C01CE9100503D60 /* Model */,
 				213ED46C2BFA5EB4003A7255 /* ML */,
 				21EA5A442BF46F33001900D5 /* Utils */,
 				213ED4812BFA6876003A7255 /* unused */,
@@ -238,9 +257,11 @@
 			isa = PBXGroup;
 			children = (
 				21EA5A452BF46F51001900D5 /* HomeView.swift */,
+				218A82772C01CCB500503D60 /* SelectionView.swift */,
+				213ED4512BFA5E5A003A7255 /* GameView.swift */,
+				21FDA9392BFDD6C5004C9DDD /* ScoreView.swift */,
 				21EA5A292BF399C3001900D5 /* ContentView.swift */,
-				213ED4512BFA5E5A003A7255 /* MLView.swift */,
-				213ED48D2BFB58D5003A7255 /* SamuraiBlast.ttf */,
+				218A828E2C01E3FB00503D60 /* SongView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -248,11 +269,13 @@
 		21EA5A442BF46F33001900D5 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				213ED47C2BFA61D4003A7255 /* video.mp4 */,
-				213ED4842BFA6B03003A7255 /* video2.mp4 */,
-				213ED4832BFA6B03003A7255 /* video3.mp4 */,
-				213ED4822BFA6B03003A7255 /* video4.mp4 */,
-				213ED4852BFA6B03003A7255 /* video5.mp4 */,
+				213ED48D2BFB58D5003A7255 /* SamuraiBlast.ttf */,
+				218A828A2C01D8A800503D60 /* caramelldansen.mp4 */,
+				218A828C2C01D9B500503D60 /* harlem_shake.mp4 */,
+				218A827E2C01D00400503D60 /* gangnam_style.mp4 */,
+				218A827D2C01D00400503D60 /* permission_to_dance.mp4 */,
+				218A82802C01D00400503D60 /* spongebob.mp4 */,
+				218A82882C01D6A800503D60 /* watch_me.mp4 */,
 				2111FDA62BFA3FC800B5E41B /* PlayVideo.swift */,
 				21EA5A472BF46FA2001900D5 /* PlaySound.swift */,
 				2111FDA22BF9D7A600B5E41B /* Color.swift */,
@@ -319,13 +342,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				21EA5A302BF399CD001900D5 /* Preview Assets.xcassets in Resources */,
+				218A82892C01D6A800503D60 /* watch_me.mp4 in Resources */,
 				21EA5A2C2BF399CD001900D5 /* Assets.xcassets in Resources */,
-				213ED4862BFA6E95003A7255 /* video2.mp4 in Resources */,
-				213ED4882BFA6E9C003A7255 /* video4.mp4 in Resources */,
-				213ED48A2BFA702C003A7255 /* video.mp4 in Resources */,
+				218A828D2C01D9B500503D60 /* harlem_shake.mp4 in Resources */,
+				218A82862C01D00400503D60 /* spongebob.mp4 in Resources */,
 				213ED48E2BFB59B8003A7255 /* SamuraiBlast.ttf in Resources */,
-				213ED4872BFA6E99003A7255 /* video3.mp4 in Resources */,
-				213ED4892BFA6E9F003A7255 /* video5.mp4 in Resources */,
+				218A828B2C01D8A800503D60 /* caramelldansen.mp4 in Resources */,
+				218A82832C01D00400503D60 /* permission_to_dance.mp4 in Resources */,
+				218A82842C01D00400503D60 /* gangnam_style.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +364,7 @@
 				21EA5A2A2BF399C3001900D5 /* ContentView.swift in Sources */,
 				21EA5A482BF46FA2001900D5 /* PlaySound.swift in Sources */,
 				21EA5A4A2BF494CA001900D5 /* CameraView1.swift in Sources */,
+				21FDA93A2BFDD6C5004C9DDD /* ScoreView.swift in Sources */,
 				21EA5A4C2BF49ADA001900D5 /* MLView1.swift in Sources */,
 				213ED46A2BFA5E5A003A7255 /* VideoProcessingChain.swift in Sources */,
 				213ED4782BFA604E003A7255 /* ExerciseClassifier+PredictAction.swift in Sources */,
@@ -354,14 +379,17 @@
 				21EA5A462BF46F51001900D5 /* HomeView.swift in Sources */,
 				21EA5A282BF399C3001900D5 /* Dance_OffApp.swift in Sources */,
 				213ED4792BFA604E003A7255 /* ExerciseClassifier+Singleton.swift in Sources */,
-				213ED4612BFA5E5A003A7255 /* MLView.swift in Sources */,
+				213ED4612BFA5E5A003A7255 /* GameView.swift in Sources */,
 				213ED4922BFC4C72003A7255 /* dance2.mlmodel in Sources */,
 				213ED4682BFA5E5A003A7255 /* AVCaptureVideoDataOutput+PixelFormat.swift in Sources */,
 				213ED4622BFA5E5A003A7255 /* Pose.swift in Sources */,
+				218A82782C01CCB500503D60 /* SelectionView.swift in Sources */,
 				21EA5A512BF4F083001900D5 /* CameraView2.swift in Sources */,
 				213ED4772BFA604E003A7255 /* ExerciseClassifier+LabelCheck.swift in Sources */,
+				218A827B2C01CEAD00503D60 /* SongList.swift in Sources */,
 				213ED4692BFA5E5A003A7255 /* VideoCapture.swift in Sources */,
 				213ED47B2BFA6179003A7255 /* dance1.mlmodel in Sources */,
+				218A828F2C01E3FB00503D60 /* SongView.swift in Sources */,
 				213ED46B2BFA5E5A003A7255 /* PredictionViewModel.swift in Sources */,
 				213ED4932BFC4C72003A7255 /* dance3.mlmodel in Sources */,
 				213ED4672BFA5E5A003A7255 /* AVCaptureDeviceInput+Camera.swift in Sources */,
