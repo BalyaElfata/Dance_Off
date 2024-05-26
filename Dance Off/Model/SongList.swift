@@ -31,7 +31,7 @@ struct SongList: Identifiable, Hashable {
             SongList(fileName: "caramelldansen", category: "meme", difficulty: "medium", songName: "Caramelldansen"),
             SongList(fileName: "permission_to_dance", category: "dance", difficulty: "hard", songName: "Permission To Dance"),
             SongList(fileName: "bagas_dribble", category: "meme", difficulty: "easy", songName: "Bagas Dribble"),
-            SongList(fileName: "be_on_your_feelings", category: "dance", difficulty: "hard", songName: "Be On Your Feelings"),
+            SongList(fileName: "what_it_is", category: "dance", difficulty: "hard", songName: "What It Is"),
             SongList(fileName: "cupid", category: "dance", difficulty: "hard", songName: "Cupid"),
             SongList(fileName: "fortune_cookie", category: "dance", difficulty: "hard", songName: "Fortune Cookie"),
             SongList(fileName: "joget_keju", category: "meme", difficulty: "hard", songName: "Joget Keju"),
