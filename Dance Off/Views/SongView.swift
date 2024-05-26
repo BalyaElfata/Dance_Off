@@ -16,38 +16,57 @@ struct SongView: View {
                     .resizable()
                     .scaledToFit()
                     .padding()
-                Spacer()
+                    .padding(.trailing, 40)
                 Text(song.songName)
+                    .foregroundColor(Color(hex: 0xF0F0C9, opacity: 1))
                     .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                     .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                 Spacer()
-                switch song.difficulty {
-                case "easy":
-                    Image(systemName: "star.fill")
-                        .foregroundColor(.orange)
-                    Image(systemName: "star.fill")
-                        .foregroundColor(.orange)
-                case "medium":
-                    Image(systemName: "star.fill")
-                        .foregroundColor(.orange)
-                    Image(systemName: "star.fill")
-                        .foregroundColor(.orange)
-                    Image(systemName: "star.fill")
-                        .foregroundColor(.orange)
-                case "hard":
-                    Image(systemName: "star.fill")
-                        .foregroundColor(.purple)
-                    Image(systemName: "star.fill")
-                        .foregroundColor(.purple)
-                    Image(systemName: "star.fill")
-                        .foregroundColor(.purple)
-                default:
-                    Image(systemName: "star.fill")
-                        .foregroundColor(.orange)
-                }
-                Spacer()
+                    switch song.difficulty {
+                    case "easy":
+                        HStack {
+                            Image(systemName: "star.fill")
+                                .foregroundColor(.orange)
+                            Image(systemName: "star")
+                                .foregroundColor(.orange)
+                            Image(systemName: "star")
+                                .foregroundColor(.orange)
+                        }
+                        .padding(.trailing, 40)
+                    case "medium":
+                        HStack{
+                            Image(systemName: "star.fill")
+                                .foregroundColor(.orange)
+                            Image(systemName: "star.fill")
+                                .foregroundColor(.orange)
+                            Image(systemName: "star")
+                                .foregroundColor(.orange)
+                        }
+                        .padding(.trailing, 40)
+                    case "hard":
+                        HStack {
+                            Image(systemName: "star.fill")
+                                .foregroundColor(.orange)
+                            Image(systemName: "star.fill")
+                                .foregroundColor(.orange)
+                            Image(systemName: "star.fill")
+                                .foregroundColor(.orange)
+                        }
+                        .padding(.trailing, 40)
+                    default:
+                        HStack {
+                            Image(systemName: "star")
+                                .foregroundColor(.orange)
+                            Image(systemName: "star")
+                                .foregroundColor(.orange)
+                            Image(systemName: "star")
+                                .foregroundColor(.orange)
+                        }
+                        .padding(.trailing, 40)
+                    }
+//                }
             }
-            .background()
+            .background(Color(hex: 0x935FA7, opacity: 1))
             .frame(width: 720, height: 200)
             .cornerRadius(40)
             .shadow(radius: 16)
@@ -98,5 +117,5 @@ struct SongView: View {
 }
 
 #Preview {
-    SongView(song: SongList(fileName: "spongebob", category: "easy", difficulty: "easy", songName: "Spongebob Jellyfish Dance"))
+    SongView(song: SongList(fileName: "spongebob", category: "meme", difficulty: "medium", songName: "Permission To Dance"))
 }
