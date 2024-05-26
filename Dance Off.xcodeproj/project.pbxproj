@@ -31,15 +31,25 @@
 		213ED4922BFC4C72003A7255 /* dance2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 213ED4902BFC4C71003A7255 /* dance2.mlmodel */; };
 		213ED4932BFC4C72003A7255 /* dance3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 213ED4912BFC4C72003A7255 /* dance3.mlmodel */; };
 		213ED4952BFC54CB003A7255 /* DanceModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 213ED4942BFC54CB003A7255 /* DanceModel.mlmodel */; };
-		218A82782C01CCB500503D60 /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A82772C01CCB500503D60 /* SelectionView.swift */; };
+		218A82782C01CCB500503D60 /* SongSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A82772C01CCB500503D60 /* SongSelectionView.swift */; };
 		218A827B2C01CEAD00503D60 /* SongList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A827A2C01CEAD00503D60 /* SongList.swift */; };
-		218A82832C01D00400503D60 /* permission_to_dance.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 218A827D2C01D00400503D60 /* permission_to_dance.mp4 */; };
-		218A82842C01D00400503D60 /* gangnam_style.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 218A827E2C01D00400503D60 /* gangnam_style.mp4 */; };
-		218A82862C01D00400503D60 /* spongebob.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 218A82802C01D00400503D60 /* spongebob.mp4 */; };
-		218A82892C01D6A800503D60 /* watch_me.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 218A82882C01D6A800503D60 /* watch_me.mp4 */; };
-		218A828B2C01D8A800503D60 /* caramelldansen.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 218A828A2C01D8A800503D60 /* caramelldansen.mp4 */; };
-		218A828D2C01D9B500503D60 /* harlem_shake.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 218A828C2C01D9B500503D60 /* harlem_shake.mp4 */; };
 		218A828F2C01E3FB00503D60 /* SongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A828E2C01E3FB00503D60 /* SongView.swift */; };
+		218A82912C02529E00503D60 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A82902C02529E00503D60 /* SplashScreenView.swift */; };
+		218A82932C033A5600503D60 /* PreparationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A82922C033A5600503D60 /* PreparationView.swift */; };
+		218A82CE2C03816000503D60 /* spongebob.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 218A82C02C03815E00503D60 /* spongebob.mp4 */; };
+		218A82CF2C03816000503D60 /* fortune_cookie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 218A82C12C03815E00503D60 /* fortune_cookie.mp4 */; };
+		218A82D02C03816000503D60 /* gangnam_style.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 218A82C22C03815E00503D60 /* gangnam_style.mp4 */; };
+		218A82D12C03816000503D60 /* what_is_love.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 218A82C32C03815E00503D60 /* what_is_love.mp4 */; };
+		218A82D22C03816000503D60 /* joget_keju.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 218A82C42C03815E00503D60 /* joget_keju.mp4 */; };
+		218A82D32C03816000503D60 /* permission_to_dance.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 218A82C52C03815E00503D60 /* permission_to_dance.mp4 */; };
+		218A82D42C03816000503D60 /* harlem_shake.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 218A82C62C03815F00503D60 /* harlem_shake.mp4 */; };
+		218A82D52C03816000503D60 /* signal.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 218A82C72C03815F00503D60 /* signal.mp4 */; };
+		218A82D62C03816000503D60 /* watch_me.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 218A82C82C03815F00503D60 /* watch_me.mp4 */; };
+		218A82D72C03816000503D60 /* cupid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 218A82C92C03815F00503D60 /* cupid.mp4 */; };
+		218A82D82C03816000503D60 /* caramelldansen.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 218A82CA2C03816000503D60 /* caramelldansen.mp4 */; };
+		218A82D92C03816000503D60 /* bagas_dribble.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 218A82CB2C03816000503D60 /* bagas_dribble.mp4 */; };
+		218A82DA2C03816000503D60 /* magnetic.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 218A82CC2C03816000503D60 /* magnetic.mp4 */; };
+		218A82DB2C03816000503D60 /* be_on_your_feelings.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 218A82CD2C03816000503D60 /* be_on_your_feelings.mp4 */; };
 		21EA5A282BF399C3001900D5 /* Dance_OffApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EA5A272BF399C3001900D5 /* Dance_OffApp.swift */; };
 		21EA5A2A2BF399C3001900D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EA5A292BF399C3001900D5 /* ContentView.swift */; };
 		21EA5A2C2BF399CD001900D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21EA5A2B2BF399CD001900D5 /* Assets.xcassets */; };
@@ -82,15 +92,25 @@
 		213ED4902BFC4C71003A7255 /* dance2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = dance2.mlmodel; path = ../../../../../ADA/ML/Dance/dance2.mlmodel; sourceTree = "<group>"; };
 		213ED4912BFC4C72003A7255 /* dance3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = dance3.mlmodel; path = ../../../../../ADA/ML/Dance/dance3.mlmodel; sourceTree = "<group>"; };
 		213ED4942BFC54CB003A7255 /* DanceModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = DanceModel.mlmodel; path = ../../../../../ADA/ML/Dance/DanceModel.mlmodel; sourceTree = "<group>"; };
-		218A82772C01CCB500503D60 /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		218A82772C01CCB500503D60 /* SongSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongSelectionView.swift; sourceTree = "<group>"; };
 		218A827A2C01CEAD00503D60 /* SongList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongList.swift; sourceTree = "<group>"; };
-		218A827D2C01D00400503D60 /* permission_to_dance.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = permission_to_dance.mp4; path = ../../../../../../Downloads/permission_to_dance.mp4; sourceTree = "<group>"; };
-		218A827E2C01D00400503D60 /* gangnam_style.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = gangnam_style.mp4; path = ../../../../../../Downloads/gangnam_style.mp4; sourceTree = "<group>"; };
-		218A82802C01D00400503D60 /* spongebob.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = spongebob.mp4; path = ../../../../../../Downloads/spongebob.mp4; sourceTree = "<group>"; };
-		218A82882C01D6A800503D60 /* watch_me.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = watch_me.mp4; path = ../../../../../../Downloads/watch_me.mp4; sourceTree = "<group>"; };
-		218A828A2C01D8A800503D60 /* caramelldansen.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = caramelldansen.mp4; path = ../../../../../../Downloads/caramelldansen.mp4; sourceTree = "<group>"; };
-		218A828C2C01D9B500503D60 /* harlem_shake.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = harlem_shake.mp4; path = ../../../../../../Downloads/harlem_shake.mp4; sourceTree = "<group>"; };
 		218A828E2C01E3FB00503D60 /* SongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongView.swift; sourceTree = "<group>"; };
+		218A82902C02529E00503D60 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		218A82922C033A5600503D60 /* PreparationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreparationView.swift; sourceTree = "<group>"; };
+		218A82C02C03815E00503D60 /* spongebob.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = spongebob.mp4; sourceTree = "<group>"; };
+		218A82C12C03815E00503D60 /* fortune_cookie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = fortune_cookie.mp4; sourceTree = "<group>"; };
+		218A82C22C03815E00503D60 /* gangnam_style.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gangnam_style.mp4; sourceTree = "<group>"; };
+		218A82C32C03815E00503D60 /* what_is_love.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = what_is_love.mp4; sourceTree = "<group>"; };
+		218A82C42C03815E00503D60 /* joget_keju.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = joget_keju.mp4; sourceTree = "<group>"; };
+		218A82C52C03815E00503D60 /* permission_to_dance.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = permission_to_dance.mp4; sourceTree = "<group>"; };
+		218A82C62C03815F00503D60 /* harlem_shake.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = harlem_shake.mp4; sourceTree = "<group>"; };
+		218A82C72C03815F00503D60 /* signal.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = signal.mp4; sourceTree = "<group>"; };
+		218A82C82C03815F00503D60 /* watch_me.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = watch_me.mp4; sourceTree = "<group>"; };
+		218A82C92C03815F00503D60 /* cupid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cupid.mp4; sourceTree = "<group>"; };
+		218A82CA2C03816000503D60 /* caramelldansen.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = caramelldansen.mp4; sourceTree = "<group>"; };
+		218A82CB2C03816000503D60 /* bagas_dribble.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bagas_dribble.mp4; sourceTree = "<group>"; };
+		218A82CC2C03816000503D60 /* magnetic.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = magnetic.mp4; sourceTree = "<group>"; };
+		218A82CD2C03816000503D60 /* be_on_your_feelings.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = be_on_your_feelings.mp4; sourceTree = "<group>"; };
 		21EA5A242BF399C3001900D5 /* Dance Off.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dance Off.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21EA5A272BF399C3001900D5 /* Dance_OffApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dance_OffApp.swift; sourceTree = "<group>"; };
 		21EA5A292BF399C3001900D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -256,8 +276,10 @@
 		21EA5A432BF46EFF001900D5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				218A82902C02529E00503D60 /* SplashScreenView.swift */,
 				21EA5A452BF46F51001900D5 /* HomeView.swift */,
-				218A82772C01CCB500503D60 /* SelectionView.swift */,
+				218A82772C01CCB500503D60 /* SongSelectionView.swift */,
+				218A82922C033A5600503D60 /* PreparationView.swift */,
 				213ED4512BFA5E5A003A7255 /* GameView.swift */,
 				21FDA9392BFDD6C5004C9DDD /* ScoreView.swift */,
 				21EA5A292BF399C3001900D5 /* ContentView.swift */,
@@ -270,12 +292,20 @@
 			isa = PBXGroup;
 			children = (
 				213ED48D2BFB58D5003A7255 /* SamuraiBlast.ttf */,
-				218A828A2C01D8A800503D60 /* caramelldansen.mp4 */,
-				218A828C2C01D9B500503D60 /* harlem_shake.mp4 */,
-				218A827E2C01D00400503D60 /* gangnam_style.mp4 */,
-				218A827D2C01D00400503D60 /* permission_to_dance.mp4 */,
-				218A82802C01D00400503D60 /* spongebob.mp4 */,
-				218A82882C01D6A800503D60 /* watch_me.mp4 */,
+				218A82CB2C03816000503D60 /* bagas_dribble.mp4 */,
+				218A82CD2C03816000503D60 /* be_on_your_feelings.mp4 */,
+				218A82CA2C03816000503D60 /* caramelldansen.mp4 */,
+				218A82C92C03815F00503D60 /* cupid.mp4 */,
+				218A82C12C03815E00503D60 /* fortune_cookie.mp4 */,
+				218A82C22C03815E00503D60 /* gangnam_style.mp4 */,
+				218A82C62C03815F00503D60 /* harlem_shake.mp4 */,
+				218A82C42C03815E00503D60 /* joget_keju.mp4 */,
+				218A82CC2C03816000503D60 /* magnetic.mp4 */,
+				218A82C52C03815E00503D60 /* permission_to_dance.mp4 */,
+				218A82C72C03815F00503D60 /* signal.mp4 */,
+				218A82C02C03815E00503D60 /* spongebob.mp4 */,
+				218A82C82C03815F00503D60 /* watch_me.mp4 */,
+				218A82C32C03815E00503D60 /* what_is_love.mp4 */,
 				2111FDA62BFA3FC800B5E41B /* PlayVideo.swift */,
 				21EA5A472BF46FA2001900D5 /* PlaySound.swift */,
 				2111FDA22BF9D7A600B5E41B /* Color.swift */,
@@ -342,14 +372,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				21EA5A302BF399CD001900D5 /* Preview Assets.xcassets in Resources */,
-				218A82892C01D6A800503D60 /* watch_me.mp4 in Resources */,
 				21EA5A2C2BF399CD001900D5 /* Assets.xcassets in Resources */,
-				218A828D2C01D9B500503D60 /* harlem_shake.mp4 in Resources */,
-				218A82862C01D00400503D60 /* spongebob.mp4 in Resources */,
 				213ED48E2BFB59B8003A7255 /* SamuraiBlast.ttf in Resources */,
-				218A828B2C01D8A800503D60 /* caramelldansen.mp4 in Resources */,
-				218A82832C01D00400503D60 /* permission_to_dance.mp4 in Resources */,
-				218A82842C01D00400503D60 /* gangnam_style.mp4 in Resources */,
+				218A82DA2C03816000503D60 /* magnetic.mp4 in Resources */,
+				218A82D42C03816000503D60 /* harlem_shake.mp4 in Resources */,
+				218A82D72C03816000503D60 /* cupid.mp4 in Resources */,
+				218A82CF2C03816000503D60 /* fortune_cookie.mp4 in Resources */,
+				218A82D32C03816000503D60 /* permission_to_dance.mp4 in Resources */,
+				218A82D52C03816000503D60 /* signal.mp4 in Resources */,
+				218A82DB2C03816000503D60 /* be_on_your_feelings.mp4 in Resources */,
+				218A82D62C03816000503D60 /* watch_me.mp4 in Resources */,
+				218A82D22C03816000503D60 /* joget_keju.mp4 in Resources */,
+				218A82CE2C03816000503D60 /* spongebob.mp4 in Resources */,
+				218A82D92C03816000503D60 /* bagas_dribble.mp4 in Resources */,
+				218A82D82C03816000503D60 /* caramelldansen.mp4 in Resources */,
+				218A82D02C03816000503D60 /* gangnam_style.mp4 in Resources */,
+				218A82D12C03816000503D60 /* what_is_love.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +412,7 @@
 				21EA5A422BF3D22D001900D5 /* Predictor.swift in Sources */,
 				21EA5A3C2BF3B427001900D5 /* ImagePicker.swift in Sources */,
 				21EA5A3E2BF3B542001900D5 /* CameraViewMac.swift in Sources */,
+				218A82912C02529E00503D60 /* SplashScreenView.swift in Sources */,
 				213ED4652BFA5E5A003A7255 /* Pose+Landmark.swift in Sources */,
 				213ED4762BFA604E003A7255 /* ExerciseClassifier+Label.swift in Sources */,
 				21EA5A462BF46F51001900D5 /* HomeView.swift in Sources */,
@@ -383,7 +422,7 @@
 				213ED4922BFC4C72003A7255 /* dance2.mlmodel in Sources */,
 				213ED4682BFA5E5A003A7255 /* AVCaptureVideoDataOutput+PixelFormat.swift in Sources */,
 				213ED4622BFA5E5A003A7255 /* Pose.swift in Sources */,
-				218A82782C01CCB500503D60 /* SelectionView.swift in Sources */,
+				218A82782C01CCB500503D60 /* SongSelectionView.swift in Sources */,
 				21EA5A512BF4F083001900D5 /* CameraView2.swift in Sources */,
 				213ED4772BFA604E003A7255 /* ExerciseClassifier+LabelCheck.swift in Sources */,
 				218A827B2C01CEAD00503D60 /* SongList.swift in Sources */,
@@ -391,6 +430,7 @@
 				213ED47B2BFA6179003A7255 /* dance1.mlmodel in Sources */,
 				218A828F2C01E3FB00503D60 /* SongView.swift in Sources */,
 				213ED46B2BFA5E5A003A7255 /* PredictionViewModel.swift in Sources */,
+				218A82932C033A5600503D60 /* PreparationView.swift in Sources */,
 				213ED4932BFC4C72003A7255 /* dance3.mlmodel in Sources */,
 				213ED4672BFA5E5A003A7255 /* AVCaptureDeviceInput+Camera.swift in Sources */,
 				213ED4642BFA5E5A003A7255 /* Pose+Empty.swift in Sources */,
