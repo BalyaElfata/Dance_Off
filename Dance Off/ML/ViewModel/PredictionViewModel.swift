@@ -113,7 +113,7 @@ class PredictionViewModel: ObservableObject {
             // Draw all the poses Vision found in the frame.
             for pose in poses {
                 // Draw each pose as a wireframe at the scale of the image.
-                pose.drawWireframeToContext(cgContext, applying: pointTransform)
+//                pose.drawWireframeToContext(cgContext, applying: pointTransform)
             }
         }
 
