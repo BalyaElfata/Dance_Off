@@ -53,6 +53,8 @@ class VideoCapture: NSObject {
     }
 
     /// The camera orientation the app uses to configure the capture session.
+    
+    // TODO: ubah jadi tidak deprecated
     private var orientation = AVCaptureVideoOrientation.portrait {
         didSet { createVideoFramePublisher() }
     }
@@ -233,7 +235,7 @@ extension VideoCapture {
             print("Getting the first/only capture-session connection shouldn't fail.")
             return false
         }
-
+// TODO: ubah jadi tidak deprecated
         if connection.isVideoOrientationSupported {
             // Set the video capture's orientation to match that of the device.
             connection.videoOrientation = orientation
