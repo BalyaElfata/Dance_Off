@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ScoreView: View {
     @Binding var totalScore: Double
+    @Binding var scoreCounter: Int
     
     var body: some View {
         ZStack {
@@ -41,7 +42,7 @@ struct ScoreView: View {
                                 .foregroundColor(Color(hex: 0xD74E09, opacity: 1))
                         }
                         .padding()
-                        Text("Score: 80")
+                        Text("Score: \(totalScore/Double(scoreCounter))")
                             .font(Font.custom("Samurai Blast", size: 60))
 //                            .foregroundColor(Color(hex: 0x24272B, opacity: 1))
                     }
@@ -66,6 +67,6 @@ struct ScoreView: View {
     }
 }
 
-#Preview {
-    ScoreView()
-}
+//#Preview {
+//    ScoreView()
+//}
