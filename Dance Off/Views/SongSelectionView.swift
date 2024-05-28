@@ -21,8 +21,9 @@ struct SongSelectionView: View {
             VStack {
                 // Title
                 Text("Song List")
-                    .font(.largeTitle)
-                    .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                    .font(Font.custom("Cherry Bomb One", size: 50))
+                    .foregroundColor(Color(hex: 0xD74E09, opacity: 1))
+                    .padding(.trailing, 40)
                 
                 // Scroll View for song list
                 ScrollView(.vertical) {
