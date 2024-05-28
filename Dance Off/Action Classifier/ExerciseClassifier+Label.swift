@@ -14,10 +14,21 @@ extension DanceModel {
 //
 //        /// A negative class that represents irrelevant actions.
 //        case otherAction = "Other Action"
-        case gangnam = "gangnam"
         case spongebob = "spongebob"
-        case orange = "orange"
-        case floss = "floss"
+        case what_is_love = "what_is_love"
+        case bagas_dribble = "bagas_dribble"
+        case caramelldansen = "caramelldansen"
+        case cupid = "cupid"
+        case fortune_cookie = "fortune_cookie"
+        case gangnam_style = "gangnam_style"
+        case harlem_shake = "harlem_shake"
+        case joget_keju = "joget_keju"
+        case magnetic = "magnetic"
+        case permission_to_dance = "permission_to_dance"
+        case signal = "signal"
+        case watch_me = "watch_me"
+        case what_it_is = "what_it_is"
+        case darari = "darari"
         case others = "others"
 
         /// Creates a label from a string.
